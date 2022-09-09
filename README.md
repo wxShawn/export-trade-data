@@ -12,7 +12,7 @@
 |数据|商户号列表|
 1. 打开`Microsoft Edge`浏览器。
 2. 安装`Tampermonkey`插件:
-    1. 打开 [Microsoft Edge 加载项](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN)。
+    1. 打开网页: [Microsoft Edge 加载项](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN)。
     2. 搜索`Tampermonkey`。
     3. 找到`Tampermonkey`插件，点击获取。
 3. 安装脚本:
@@ -36,6 +36,6 @@
     7. 点击`选择文件`, 选择刚才新建的`csv`文件。
     8. 点击`导出交易数据`开始导出。
 ---
-备注:
-    1. 因扫呗服务端限制了同一个ip地址短时间内只能请求30次，所以脚本每发出30次请求后将会暂停60秒，此时不要关闭页面，等待60秒之后脚本将会继续发送请求。`导出进度`后面出现`sleeping`字样时则表示正处于暂停状态。
-    2. 脚本运行时(也就是点击`导出交易数据`之后)，不要在此电脑上对扫呗后台做任何操作，否则可能导致此电脑的ip请求超限。
+**备注**:
+1. 因扫呗服务端限制了同一个ip地址短时间内只能请求30次，所以脚本每发出30次请求后将会暂停60秒，此时不要关闭页面，等待60秒之后脚本将会继续发送请求。`导出进度`后面出现`sleeping`字样时则表示正处于暂停状态。  
+2. 脚本运行时(也就是点击`导出交易数据`之后)，不要在此电脑上对扫呗后台做任何操作，否则可能导致此电脑的ip请求超限。
