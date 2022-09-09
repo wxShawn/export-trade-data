@@ -8,7 +8,7 @@
 |浏览器|Microsoft Edge(其他浏览器暂未测试是否可用)|
 |网址|[扫呗交易查询](https://saobei.lcsw.cn/lcsw/cms/function/pospay/tradeSerial_agent?pageid=r-jycx&ppageid=rg-sjgl)|
 |浏览器插件|Tampermonkey|
-|脚本|export-trade-data.js|
+|脚本|[export-trade-data.js](https://github.com/wxShawn/export-trade-data/blob/main/export-trade-data.js)|
 |数据|商户号列表|
 1. 打开`Microsoft Edge`浏览器。
 2. 安装`Tampermonkey`插件:
