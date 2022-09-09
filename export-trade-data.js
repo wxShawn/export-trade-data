@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name         saobei trade
-// @namespace    http://tampermonkey.net/
+// @name         export trade data
+// @namespace    wxshawn
 // @version      0.1
-// @description  try to take over the world!
+// @description  批量导出商户交易数据
 // @author       wxShawn
 // @match        https://saobei.lcsw.cn/lcsw/cms/function/pospay/tradeSerial_agent?pageid=r-jycx&ppageid=rg-sjgl
+// @match        http://saobei.lcsw.cn/lcsw/cms/function/pospay/tradeSerial_agent?pageid=r-jycx&ppageid=rg-sjgl
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=lcsw.cn
 // @grant        none
 // ==/UserScript==
